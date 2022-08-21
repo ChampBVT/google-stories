@@ -55,7 +55,13 @@ const HeroPhoneBlock = () => {
             transform: 'translateX(35%)',
           }}
         >
-          <Image src={PhoneFrame} alt="PhoneFrame" layout="responsive" />
+          <Image
+            src={PhoneFrame}
+            alt="PhoneFrame"
+            layout="responsive"
+            loading="eager"
+            priority
+          />
           <video
             playsInline
             autoPlay
