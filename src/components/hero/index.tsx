@@ -6,7 +6,7 @@ import { FC } from 'react';
 
 const Hero: FC = () => {
   return (
-    <Container style={{ position: 'relative' }} size={1920}>
+    <Container style={{ position: 'relative', width: '100%' }} size={1920}>
       <HeroHeader />
       <HeroCollage />
       <HeroFooter />

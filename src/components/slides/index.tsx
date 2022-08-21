@@ -75,7 +75,6 @@ const Slides: FC = () => {
           scrub: true,
           pin: true,
           pinSpacing: false,
-          markers: true,
         },
       });
     };
